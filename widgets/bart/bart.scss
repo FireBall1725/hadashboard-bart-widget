@@ -1,0 +1,43 @@
+@import "/app/assets/stylesheets/themes/current.scss";
+
+.widget-bart {
+  background-color: $background-color;
+
+  .colored {
+    color: $weather-primary-text-color !important;
+  }
+
+  .secondary-info {
+   	font-size: 170%;
+  	font-weight: 200;
+  }
+
+  [class^="primary"] {
+  	display: inline-block;
+  	vertical-align: middle;
+  	padding: 0;
+  	margin-left: 10px;
+  	margin-right: 10px;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  }
+
+  [class^="secondary"] {
+  	display: inline-block;
+  	vertical-align: middle;
+  	padding: 0;
+  	margin-left: 0px;
+  	margin-right: 0px;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  }
+
+  hr {
+  	width: 90%;
+  	border: 0;
+  	height: 1px;
+  	background: rgba(255, 255, 255, 0.25);
+  	margin-top: 15px;
+  	margin-bottom: 15px;
+  }
+}
