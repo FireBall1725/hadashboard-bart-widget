@@ -4,6 +4,8 @@ The following is a widget I created for hadashboard by FlorianZ. More informatio
 
 The widget is a 2x2 widget that shows you the how long until the next train and the train after that, it also includes the number of cars in the train.
 
+![](https://raw.githubusercontent.com/FireBall1725/hadashboard-bart-widget/master/bartwidget.png)
+
 # Setup
 Copy the `widgets` and `jobs` folder into your hadashboard directory.
 
